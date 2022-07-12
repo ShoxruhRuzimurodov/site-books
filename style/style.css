@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contaner {
+  width: 1280px;
+  margin: 0 auto;
+  height: 46px;
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* header about */
+
+.form-box {
+width: 600px;
+height: 42px;
+margin-left: 90px;
+position: relative;
+border: 1px solid #e3e6eb;
+border-radius: 50px;
+background-color: #f8fafd;
+margin-right: auto;
+}
+
+.fas {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+}
+
+.input {
+  position: absolute;
+  bottom: -12px;
+  width: 530px;
+  height: 40px;
+  font-size: 20px;
+  outline: none;
+  color: fff;
+  left: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #f8fafd;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+/*Bookmarks about*/
+
+
+
+.card-bookmarks-4 .books-item__card {
+  width: 218px;
+  height: 72px;
+  background: #eeebeb;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+.card-bookmarks .books-item__card h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 5px;
+  width: 150px;
+  height: 20px;
+  overflow: hidden;
+}
+.card-bookmarks .books-item__card p {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #757881;
+  margin-top: 3px;
+  width: 150px;
+  height: 20px;
+  overflow: hidden;
+}
+.card-bookmarks .books-item__card .card-img {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  cursor: pointer;
+}
+.card-bookmarks .books-item__card .card-imgage {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+/*Sayt result about */
+.site-main {
+  width: 1280px;
+  height: 66px;
+  position: relative;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.site-main .main-result {
+  position: absolute;
+  top: 20px;
+  left: 320px;
+}
+.site-main .main-result span {
+  color: red;
+  background: rgba(0, 0, 0, 0.124);
+  border-radius: 20px;
+  padding: 3px;
+}
+.site-main .main-order {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  width: 165px;
+  height: 34px;
+  background: #a6b0c3;
+  border-radius: 4px;
+}
+
+.site-main .main-order .kalendar-img {
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.site-main .main-order p {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+/* books about */
+
+.btn-box {
+  width: 100px;
+  height: 44px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-storage {
+  width: 270px;
+  height: 1200px;
+  padding: 0 40px;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.book-heading {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: sans-serif;
+  margin-top: 27px;
+}
+
+.book-text {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155.6%;
+  color: #000000;
+}
+
+.book-item-card {
+  width: 1010px;
+  height: 100%;
+
+}
+
+.books {
+  width: 1010px;
+  height:2300px;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns:repeat( 3, 1fr);
+  grid-gap:20px;
+  box-sizing: border-box;
+
+}
+
+.card {
+  width: 282px;
+  height: 480px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.books-link {
+  text-decoration: none;
+}
+
+.card-img {
+margin-left: 20px;
+margin-right: auto;
+border-radius: 5px;
+}
+
+.headings {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 30px;
+}
+.texts {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #757881;
+}
+
+.text-item {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #757881;
+}
+
+.book-btn {
+  cursor: pointer;
+  width: 115px;
+  height: 37px;
+  background: #FFD80D;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 15px;
+}
+.more-btn {
+  margin-top: 15px;
+  cursor: pointer;
+  width: 115px;
+  height: 37px;
+  border-radius: 4px;
+  border: none;
+  background: rgba(13, 117, 255, 0.05);
+  color: #0D75FF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+
+.read-btn {
+  width: 246px;
+  height: 37px;
+  background: #75828a;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border: 0;
+  color: #ffffff;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+/*modal about*/
+
+
+.container-modal {
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background: rgb(255, 255, 255);
+  z-index: 999;
+  overflow: scroll;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 1s all ease;
+}
+.active {
+  transform: translateX(0)!important;
+}
+.modal {
+  width: 100%;
+  height: 77.46px;
+  background: #f8fafd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.modal h3 {
+  margin-left: 30px;
+}
+
+.container-modal .vector {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.container-modal .card__a {
+  margin: 50px 0 50px 120px;
+}
+.container-modal .title p {
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  line-height: 170.3%;
+  color: #000000;
+  margin-left: 50px;
+  width: 470.46px;
+}
+.container-modal .all {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222531;
+}
+.container-modal .all h3 {
+  margin-top: 5px;
+}
+.container-modal .all p {
+  margin-left: 10px;
+  background: rgba(13, 117, 255, 0.09);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0d75ff;
+  padding: 20px;
+  overflow: hidden;
+}
+.container-modal .card__btn{
+  width: 112px;
+  height: 35px;
+  background: #75828a;
+  border-radius: 4px;
+  margin: 20px 30px 30px 0;
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Btn {
+  width: 1010px;
+  height: 36px;
+  position: absolute;
+  top:2264px;
+  left: 50%;
+}
+
+.left-btn {
+  width: 120px;
+  height: 36px;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #fff;
+  background-color: #0d75ff;
+  cursor: pointer;
+}
+
+
+.rigth-btn {
+  width: 120px;
+  height: 36px;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #fff;
+  background-color: #0d75ff;
+  cursor: pointer;
+}
